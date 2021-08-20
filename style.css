@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
+
+/* https://github.com/programming-hero-web-course2/mac-book-pro-mdabdullaalnoman */
+
+:root {
+  --orange: #fc8a47;
+  --lightGray: #828282;
+}
+* {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  transition: all 0.2s linear;
+}
+*::selection {
+  background: var(--orange);
+  color: #fff;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 6rem;
+  scroll-behavior: smooth;
+}
+body{
+    padding: 2rem 10%;
+}
+
+main .body-warp{
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+main .body-warp .mac-img img{
+    width: 80%;
+}
+main h1{
+    font-size: 5rem;
+}
+main .header > p{
+    font-size: 2rem;
+    color: grey;
+    padding: 2rem 0;
+}
+main h5{
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+main button{
+    background: none;
+    border: .2rem solid mediumvioletred;
+    padding: 1rem 1.5rem;
+    margin-right: 1rem;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+main button:hover{
+    background: mediumvioletred;
+    color: white;
+}
+
+
+/* card section  */
+main .card-warp{
+    margin: 5rem 0;
+}
+main .card-content:last-child{
+    border-top: 2px solid grey;
+    margin-top: 3rem;
+}
+main .card-content{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color:midnightblue;
+    padding: .5rem 1rem;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.432);
+}
+
+main .promo-code p{
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+main .promo-code input{
+    outline: 2px solid mediumvioletred;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    border-radius: 1rem;
+}
+
+footer{
+    text-align: center;
+    border-top: 2px solid #ccc;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+@media (max-width:768px){
+    html{
+        font-size: 50%;
+    }
+    body{
+        padding: 1rem;
+    }
+    .body-warp{
+        flex-direction: column;
+    }
+    main .body-warp .mac-img {
+        width: 100%;
+    }
+    footer{
+        font-size: 2rem;
+    }
+}
