@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mac-Book Pro Shoping card safti</title>
+    <title>Mac-Book Pro Shoping card</title>
 
     <!-- custom css -->
     <link rel="stylesheet" href="style.css">
@@ -35,8 +35,8 @@
                 <!-- Memory section start -->
                 <section>
                     <h5>Memory</h5>
-                    <button>8 Gb unified memory</button>
-                    <button>16 Gb unified memory</button>
+                    <button id="memory1-btn">8 Gb unified memory</button>
+                    <button id="memory2-btn">16 Gb unified memory</button>
                 </section>
                 <!-- Memory section end -->
 
@@ -44,9 +44,9 @@
                 <!-- storage section start-->
                 <section>
                     <h5>Storage</h5>
-                    <button>256 Gb SSD storage</button>
-                    <button>512 Gb SSD storage</button>
-                    <button>1 TB SSD storage</button>
+                    <button id="storage1-btn">256 Gb SSD storage</button>
+                    <button id="storage2-btn">512 Gb SSD storage</button>
+                    <button id="storage3-btn">1 TB SSD storage</button>
                 </section>
                 <!-- storage section end-->
 
@@ -54,8 +54,8 @@
                 <!-- Delivery sections start -->
                 <section>
                     <h5>Choose Your delivery option</h5>
-                    <button>Friday, Aug 25 Free Prime Delivery</button>
-                    <button>Friday, Aug 21 Free Prime Delivery charge $20</button>
+                    <button id="delivery1-btn">Friday, Aug 25 Free Prime Delivery</button>
+                    <button id="delivery2-btn">Friday, Aug 21 Free Prime Delivery charge $20</button>
                 </section>
                 <!-- Delivery sections end -->
 
@@ -63,23 +63,23 @@
                 <section class="card-warp">
                     <div class="card-content">
                         <p>Best Price</p>
-                        <p>$ <span>1299</span></p>
+                        <p>$ <span id="best-price">1299</span></p>
                     </div>
                     <div class="card-content">
                         <p>Extra Memory Cost</p>
-                        <p>$ <span>0</span></p>
+                        <p>$ <span id="memory">0</span></p>
                     </div>
                     <div class="card-content">
                         <p>Extra Storage Cost</p>
-                        <p>$ <span>0</span></p>
+                        <p>$ <span id="storage">0</span></p>
                     </div>
                     <div class="card-content">
                         <p>Delivery charge</p>
-                        <p>$ <span>1299</span></p>
+                        <p>$ <span id="delivery-charge">0</span></p>
                     </div>
                     <div class="card-content">
                         <p>Total Price</p>
-                        <p>$ <span>1299</span></p>
+                        <p>$ <span id="total-price">1299</span></p>
                     </div>
                 </section>
                 <!-- shoping card end -->
@@ -87,7 +87,7 @@
                 <section class="promo-code">
                     <p>Add Promo code discount 20%</p>
                     <input type="text" name="number" id="promo-input">
-                    <button>Apply</button>
+                    <button id="promo-btn">Apply</button>
                 </section>
             </div>
         </div>
@@ -95,7 +95,7 @@
     </main>
 
     <footer>
-        <h1>Total: $ <span>1299</span></h1>
+        <h1>Total: $ <span id="total-price-footer">1299</span></h1>
     </footer>
 
 
