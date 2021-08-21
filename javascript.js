@@ -31,7 +31,7 @@ document.getElementById('promo-btn').addEventListener('click', function () {
     let totalBalance = getTotal();
     const promoInputText = document.getElementById('promo-input').value;
 
-    if (promoInputText == 'nomankaku') {
+    if (promoInputText == 'stevekaku') {
         const discount20 = (totalBalance * 20) / 100;
         totalBalance = parseInt(totalBalance - discount20);
     };
